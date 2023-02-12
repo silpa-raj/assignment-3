@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.web {
+	min-height: 50vh;
+}
+.about {
+	min-height: 50vh;
+	flex-wrap: wrap;
+}
+.just {
+	min-height: 60vh;
+}
+@media screen and (max-width: 576px) {
+	.about {
+		width: 100%;
+	}
+}
